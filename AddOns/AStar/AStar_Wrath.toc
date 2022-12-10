@@ -1,0 +1,5 @@
+## Title: A-Star
+## Interface: 30400
+## Dependencies: Movement, BinaryHeap, Array, Core, Math
+
+AStar.lua

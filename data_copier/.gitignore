@@ -1,0 +1,5 @@
+node_modules
+*.lua
+npcs/*.html
+quests/*.html
+quest_items/*.html

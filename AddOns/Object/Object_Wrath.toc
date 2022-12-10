@@ -1,0 +1,5 @@
+## Title: Object
+## Interface: 30400
+## Dependencies: Set, Boolean
+
+Object.lua

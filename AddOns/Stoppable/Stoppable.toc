@@ -1,0 +1,4 @@
+## Title: Stoppable
+## Interface: 100002
+
+Stoppable.lua

@@ -1,0 +1,81 @@
+<Bindings>
+  <Binding name="MESHNETBARBUTTON1" runOnUp="true" category="BINDING_HEADER_MESHNETBAR">
+    if keystate == 'down' then
+      meshNetBarButtonDown('MeshNetBar', 1)
+    else
+      meshNetBarButtonUp('MeshNetBar', 1)
+    end
+  </Binding>
+
+  <Binding name="MESHNETBARBUTTON2" runOnUp="true" category="BINDING_HEADER_MESHNETBAR"  header="CONNECTING_TWO_POLYGONS">
+    if keystate == 'down' then
+      meshNetBarButtonDown('MeshNetBar', 2)
+    else
+      meshNetBarButtonUp('MeshNetBar', 2)
+    end
+  </Binding>
+
+  <Binding name="MESHNETBARBUTTON3" runOnUp="true" category="BINDING_HEADER_MESHNETBAR">
+    if keystate == 'down' then
+      meshNetBarButtonDown('MeshNetBar', 3)
+    else
+      meshNetBarButtonUp('MeshNetBar', 3)
+    end
+  </Binding>
+
+  <Binding name="MESHNETBARBUTTON4" runOnUp="true" category="BINDING_HEADER_MESHNETBAR">
+    if keystate == 'down' then
+      meshNetBarButtonDown('MeshNetBar', 4)
+    else
+      meshNetBarButtonUp('MeshNetBar', 4)
+    end
+  </Binding>
+
+  <Binding name="MESHNETBARBUTTON5" runOnUp="true" category="BINDING_HEADER_MESHNETBAR">
+    if keystate == 'down' then
+      meshNetBarButtonDown('MeshNetBar', 5)
+    else
+      meshNetBarButtonUp('MeshNetBar', 5)
+    end
+  </Binding>
+
+  <Binding name="MESHNETBARBUTTON6" runOnUp="true" category="BINDING_HEADER_MESHNETBAR" header="CONNECTING_TWO_POLYGONS_WITH_POINT_SPECIFICATION">
+    if keystate == 'down' then
+      meshNetBarButtonDown('MeshNetBar', 6)
+    else
+      meshNetBarButtonUp('MeshNetBar', 6)
+    end
+  </Binding>
+
+  <Binding name="MESHNETBARBUTTON7" runOnUp="true" category="BINDING_HEADER_MESHNETBAR">
+    if keystate == 'down' then
+      meshNetBarButtonDown('MeshNetBar', 7)
+    else
+      meshNetBarButtonUp('MeshNetBar', 7)
+    end
+  </Binding>
+
+  <Binding name="MESHNETBARBUTTON8" runOnUp="true" category="BINDING_HEADER_MESHNETBAR">
+    if keystate == 'down' then
+      meshNetBarButtonDown('MeshNetBar', 8)
+    else
+      meshNetBarButtonUp('MeshNetBar', 8)
+    end
+  </Binding>
+
+  <Binding name="MESHNETBARBUTTON9" runOnUp="true" category="BINDING_HEADER_MESHNETBAR">
+    if keystate == 'down' then
+      meshNetBarButtonDown('MeshNetBar', 9)
+    else
+      meshNetBarButtonUp('MeshNetBar', 9)
+    end
+  </Binding>
+
+  <Binding name="MESHNETBARBUTTON10" runOnUp="true" category="BINDING_HEADER_MESHNETBAR" header="REMOVE_OFF_MESH_CONNECTION">
+    if keystate == 'down' then
+      meshNetBarButtonDown('MeshNetBar', 10)
+    else
+      meshNetBarButtonUp('MeshNetBar', 10)
+    end
+  </Binding>
+</Bindings>

@@ -1,0 +1,5 @@
+## Title: Unlocker
+## Interface: 100002
+## Dependencies: HWT, Set, Array, Compatibility
+
+Unlocker.lua

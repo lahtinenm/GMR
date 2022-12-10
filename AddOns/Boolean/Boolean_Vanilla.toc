@@ -1,0 +1,5 @@
+## Title: Boolean
+## Interface: 11403
+## Dependencies: PackageInitialization
+
+Boolean.lua

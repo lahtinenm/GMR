@@ -1,0 +1,4 @@
+## Title: String
+## Interface: 100002
+
+String.lua

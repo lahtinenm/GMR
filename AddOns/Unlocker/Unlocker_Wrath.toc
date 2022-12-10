@@ -1,0 +1,5 @@
+## Title: Unlocker
+## Interface: 30400
+## Dependencies: HWT, Set, Array, Compatibility
+
+Unlocker.lua

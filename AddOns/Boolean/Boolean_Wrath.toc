@@ -1,0 +1,5 @@
+## Title: Boolean
+## Interface: 30400
+## Dependencies: PackageInitialization
+
+Boolean.lua
