@@ -1,0 +1,33 @@
+There seems to be a way to define unstuck paths.
+
+C_QuestLog.IsFailed(questID)
+GMR.AbandonQuest(questID)
+
+/dump coroutine.wrap(function () exploreObject(GMR.FindObject(278308)) end)()
+
+/dump exploredObjects[278560]
+/dump coroutine.wrap(function () exploreObject(GMR.FindObject(278560)) end)()
+/dump GMR.GetDistanceBetweenObjects('player', 'softinteract')
+
+/dump GMR.CombatRotationToggle()
+
+/dump HWT.GameObjectType(GMR.FindObject(55))
+/dump HWT.ObjectQuests(GMR.FindObject(55))
+
+/dump Unlocker.retrieveQuestGiverStatus(GMR.FindObject(55))
+
+/dump Movement.isPointCloseToCharacterWithZTolerance(QuestingPointToShow)
+
+/dump HWT.GameObjectType(GMR.FindObject(56))
+
+/dump HWT.ObjectIsQuestObjective(GMR.FindObject(56), false)
+
+/dump Movement.canBeMovedFromPointToPointCheckingSubSteps(MovementPath[5], MovementPath[6])
+
+/dump Movement.receiveWaterSurfacePoint(MovementPath[6])
+
+/dump HWT.RunScript('test.lua', 'function test()\nreturn "a"\nend\n')
+
+/dump HWT.RunScript('test.lua', 'print("a")')
+
+/dump HWT.LoadScript('test.lua', 'return "a"')

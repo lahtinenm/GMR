@@ -1,0 +1,85 @@
+/dump C_AreaPoiInfo.GetAreaPOIForMap(C_Map.GetBestMapForUnit('player'))
+/dump C_AreaPoiInfo.GetAreaPOIInfo(C_Map.GetBestMapForUnit('player'), 5880)
+/dump C_QuestLog.GetQuestsOnMap(GMR.GetMapId())
+/dump C_Map.GetBestMapForUnit('player')
+/dump WorldMapFrame:RegisterCallback("SetHighlightedQuestPOI", function () print('SetHighlightedQuestPOI') end)
+/dump WorldMapFrame:RegisterCallback("SetFocusedQuestID", function () print('SetFocusedQuestID') end)
+/dump C_QuestLog.GetNextWaypoint(895)
+/script local playerPosition = GMR.GetPlayerPosition(); GMR.WriteFile('C:/position.txt', '{ x = ' .. playerPosition.x .. ', y = ' .. playerPosition.y .. ', z = ' .. playerPosition.z .. ' }')
+/dump GetContainerItemID(0, 1)
+/dump findObjectsByName('')
+/dump UnitPower('player', ALTERNATE_POWER_INDEX)
+/dump findObjectsByName("Korinna's Allaying Crook")
+ObjectFlags
+ObjectFlags2
+ObjectDynamicFlags
+/dump GMR.FindObject(357754)
+/dump GMR.ObjectFlags(GMR.FindObject(357754))     nil
+/dump GMR.ObjectFlags2(GMR.FindObject(357754))    0
+/dump GMR.ObjectDynamicFlags(GMR.FindObject(357754))   -64988
+/dump GMR.ObjectName(GMR.FindObject(357754))
+/dump GMR.IsObjectInteractable(GMR.FindObject(357754))
+/dump GMR.GetObjectWithInfo({ id = 357754})
+/dump GMR.InteractObject(GMR.FindObject(357754))
+/dump GMR.ObjectInteract(GMR.FindObject(357754))
+/dump C_QuestLog.GetLogIndexForQuestID(C_SuperTrack.GetSuperTrackedQuestID())
+/dump GetQuestLogSpecialItemInfo(C_QuestLog.GetLogIndexForQuestID(C_SuperTrack.GetSuperTrackedQuestID()))
+/dump GMR.GetNearbyObjects(5)
+/dump next(GMR.GetNearbyObjects(5))[1]
+/dump ({next(GMR.GetNearbyObjects(5))})[1]
+/dump GMR.IsDead(({next(GMR.GetNearbyObjects(5))})[1])
+/dump GMR.ObjectId(({next(GMR.GetNearbyObjects(5))})[1])
+/dump GMR.FindObject(158765)
+/dump GMR.ObjectName(GMR.FindObject(158765))
+/dump GMR.ObjectHasGossip(GMR.FindObject(158765))
+/dump GMR.IsObjectInteractable(GMR.FindObject(158765))
+/dump GetActionCooldown(ExtraActionButton1.action)
+/dump GMR.TargetObject(({next(GMR.GetNearbyObjects(5))})[1])
+/dump GMR.FindObject(172914)
+/dump GMR.FindObject(349613)
+/dump GMR.ObjectFlags(GMR.FindObject(349613))
+/dump GMR.ObjectFlags(GMR.FindObject(349613))
+/dump GMR.ObjectFlags2(GMR.FindObject(349613))
+/dump GMR.ObjectDynamicFlags(GMR.FindObject(349613))
+/dump GMR.ObjectDynamicFlags('target')
+/dump bit.band(GMR.ObjectDynamicFlags(GMR.FindObject(349613)), 512) == 512
+/dump bit.band(GMR.ObjectDynamicFlags('target'), 512) == 512
+/dump bit.band(GMR.ObjectDynamicFlags('target'), 32) == 32
+/dump GMR.ObjectDynamicFlags(GMR.FindObject(165966))
+/dump GMR.FindObject(165966)
+/dump GMR.ObjectFlags2('target')
+/dump GMR.ObjectFlags('target')
+/dump bit.band(GMR.ObjectDynamicFlags('target'), 32) == 32
+/dump bit.band(GMR.ObjectFlags('target'), 32) == 32
+/dump bit.band(GMR.ObjectFlags2('target'), 32) == 32
+/dump GMR.ObjectRawType('target')
+/dump GMR.ObjectDynamicFlags(GMR.FindObject(356878))
+/dump bit.band(GMR.ObjectDynamicFlags(GMR.FindObject(356878)), 32) == 32
+with glimmer: -65500
+without glimmer -65536
+
+ GO_DYNFLAG_LO_SPARKLE da wenn quest objective glimmer
+ GO_DYNFLAG_LO_ACTIVATE da wenn quest objective glimmer
+
+/dump GMR.IsObjectInteractable(GMR.FindObject(356878))
+
+/dump bit.band(GMR.ObjectDynamicFlags(GMR.FindObject(357413)), 0x20) == 0x20
+/dump GMR.IsObjectInteractable(GMR.FindObject(357413))
+/script local playerPosition = GMR.GetPlayerPosition(); GMR.WriteFile('C:/position.txt', tostring(playerPosition.x) .. ', ' .. playerPosition.y .. ', ' .. playerPosition.z)
+/script local playerPosition = GMR.GetPlayerPosition(); GMR.WriteFile('C:/position.txt', '{ x = ' .. playerPosition.x .. ', y = ' .. playerPosition.y .. ', z = ' .. playerPosition.z .. ' },', true)
+/script logToFile(C_SuperTrack.GetSuperTrackedQuestID())
+/script local questID = C_SuperTrack.GetSuperTrackedQuestID(); logToFile(tostring(questID) .. '\n' .. QuestUtils_GetQuestName(questID))
+/dump C_QuestLog.GetNextWaypoint(C_SuperTrack.GetSuperTrackedQuestID())
+/dump C_QuestLog.GetInfo(C_QuestLog.GetLogIndexForQuestID(C_SuperTrack.GetSuperTrackedQuestID()))
+/dump QuestieDB:GetQuest(2118).Objectives[1]
+/dump Object.keys(QuestieDB:GetQuest(2118).Objectives[1])
+/dump QuestieDB:GetQuest(2118).Objectives[1].Type
+/dump QuestieDB:GetQuest(2118).Objectives[1].QuestData
+/dump QuestieDB:GetQuest(2118).Objectives[1].QuestData.sourceItemId
+/dump logToFile(tableToString(QuestieDB:GetQuest(2118).Objectives[1], 3))
+/dump logToFile(tableToString(QuestieDB:GetQuest(2118), 3))
+/dump Object.keys(QuestieDB:GetQuest(2118).Objectives[1].spawnList)
+/dump h()
+/dump C_Map.GetMapChildrenInfo(C_Map.GetBestMapForUnit("player"), Enum.UIMapType.Continent, true)
+/dump select(8, GetInstanceInfo())
+/dump C_QuestLog.GetQuestsOnMap(GMR.GetMapId())

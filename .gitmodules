@@ -1,0 +1,45 @@
+[submodule "AddOns/AStar"]
+	path = AddOns/AStar
+	url = https://github.com/AkiKonani/a-star-lua.git
+[submodule "AddOns/Array"]
+	path = AddOns/Array
+	url = https://github.com/SanjoSolutions/LuaArray.git
+[submodule "AddOns/Object"]
+	path = AddOns/Object
+	url = https://github.com/SanjoSolutions/LuaObject.git
+[submodule "AddOns/Set"]
+	path = AddOns/Set
+	url = https://github.com/SanjoSolutions/LuaSet.git
+[submodule "AddOns/Math"]
+	path = AddOns/Math
+	url = https://github.com/SanjoSolutions/LuaMath.git
+[submodule "AddOns/Events"]
+	path = AddOns/Events
+	url = https://github.com/SanjoSolutions/LuaEvents.git
+[submodule "AddOns/Coroutine"]
+	path = AddOns/Coroutine
+	url = https://github.com/SanjoSolutions/LuaCoroutine.git
+[submodule "AddOns/BinaryHeap/libs/BinaryHeap"]
+	path = AddOns/BinaryHeap/libs/BinaryHeap
+	url = https://github.com/AkiKonani/BinaryHeap.git
+[submodule "AddOns/Function"]
+	path = AddOns/Function
+	url = https://github.com/SanjoSolutions/LuaFunction.git
+[submodule "AddOns/Boolean"]
+	path = AddOns/Boolean
+	url = https://github.com/SanjoSolutions/LuaBoolean.git
+[submodule "AddOns/Tooltips"]
+	path = AddOns/Tooltips
+	url = https://github.com/SanjoSolutions/Tooltips.git
+[submodule "AddOns/String"]
+	path = AddOns/String
+	url = https://github.com/SanjoSolutions/LuaString.git
+[submodule "AddOns/Float"]
+	path = AddOns/Float
+	url = https://github.com/SanjoSolutions/LuaFloat.git
+[submodule "AddOns/RecommendedSpellCaster"]
+	path = AddOns/RecommendedSpellCaster
+	url = https://github.com/AkiKonani/RecommendedSpellCaster.git
+[submodule "AddOns/PackageInitialization"]
+	path = AddOns/PackageInitialization
+	url = https://github.com/SanjoSolutions/LuaPackageInitialization.git
